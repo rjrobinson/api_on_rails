@@ -1,28 +1,27 @@
-== README
+##API on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#####This project is for the API on Rails tutorial found [here](http://apionrails.icalialabs.com/).
 
-Things you may want to cover:
+##Features
+--------
 
-* Ruby version
+##Getting Started
+You're going to need:
 
-* System dependencies
+1. Ruby, version 1.9.3 or newer
 
-* Configuration
+###Installation
+--------
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##Contribute
+--------
+Not necessary.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+##Support
+--------
+
+##License
+--------
+
+The project is licensed under the MIT license.
