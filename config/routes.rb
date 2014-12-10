@@ -1,10 +1,12 @@
+require 'api_constraints'
+
 Rails.application.routes.draw do
 
   namespace :api, defaults: { format: :json },
                   constraints: { subdomain: 'api'},
                   path: '/' do
-
-  # we are going to list our resources here.
+    scope module: :v1 do
+      # we are going to list our resources here.
+    end
   end
-
 end
