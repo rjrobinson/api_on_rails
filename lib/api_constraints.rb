@@ -1,10 +1,10 @@
 class ApiConstraints
-  def initalize(options ={})
+  def initialize(options)
     @version = options[:version]
     @default = options[:default]
   end
 
-  def matchers?(req)
+  def matches?(req)
     @default || req.headers['Accept'].include?("application/vnd.marketplace.v#{@version}")
   end
 end
